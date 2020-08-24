@@ -1,0 +1,48 @@
+/* halaman home */
+#img-home {
+    object-fit: cover;
+    object-position: center;
+    height: 25vh;
+}
+.link-menu {
+    font-size: 3em;
+}
+
+/* halaman EPL dan Laliga*/
+.title-league {
+    display: flex; 
+    margin-top: 15px;
+    padding: 7px;
+    border-bottom: 3px solid #e53935;
+}
+.img-league {
+    width: 50px;  
+    object-fit: contain;  
+    object-position: center;
+}
+.league-name {
+    padding-left: 10px;    
+}
+.list-team {
+    display: none;
+}
+
+/* halaman team */
+#img-team {
+    width: 150px;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 576px)
+{
+    #img-team {
+        width: 130px;
+    }
+    .info-team {
+        display: none;
+    }
+}
