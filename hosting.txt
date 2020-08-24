@@ -1,0 +1,2 @@
+firebase: https://soccer-pwa.web.app/
+github: https://github.com/rizky-alam/soccerInfo
